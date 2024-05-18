@@ -1,10 +1,13 @@
 # Troubleshooting AO build & load
 
 ## Context for code in this repo
- - A new git repo was created. Cloned https://github.com/permaweb/ao.git to root, copied the ao/dev-cli/container folder to troubleshooting-ao folder root, deleted the ao folder.
+ - Created this new repo for testing.
+ - Cloned https://github.com/permaweb/ao.git to root.
+ - Copied the ao/dev-cli/container folder to this repo root.
+ - Deleted the ao folder.
  - Added 1 new .lua file (container/src/scott.lua)
  - Set up npm and installed @permaweb/ao-loader
- - Added build script to package.json
+ - Added build and test script to package.json
  - Copied test code into test folder
 
 ## Running

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --experimental-wasm-memory64 test/loader.test.js",
-    "build": "cd container && docker build . -t p3rmaw3b/ao:debugging && docker run --platform linux/amd64 -v .:/src p3rmaw3b/ao:debugging python3 /usr/local/bin/emcc-lua && mv ./process.wasm ../process.wasm;",
+    "build": "cd container && docker build . -t p3rmaw3b/ao:debugging && docker run --platform linux/amd64 -v .:/src p3rmaw3b/ao:debugging python3 /usr/local/bin/emcc-lua && mv ./process.wasm ../process.wasm;"
   },
   "author": "",
   "license": "ISC",

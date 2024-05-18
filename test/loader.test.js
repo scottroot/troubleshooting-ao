@@ -15,7 +15,7 @@ const env = {
 }
 
 describe('Basic ao-loader tests.', function () {
-  it('Test Load process.wasm: wasm32-unknown-emscripten', async () => {
+  it('Test Load process.wasm: wasm64-unknown-emscripten-draft_2024_02_15', async () => {
     const options = { format: "wasm64-unknown-emscripten-draft_2024_02_15", computeLimit: 9e12 }
     const wasm = fs.readFileSync('process.wasm')
     console.log("WASM image loaded. Size:", (wasm.length / 1024 / 1024).toFixed(2), " MB")

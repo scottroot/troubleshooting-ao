@@ -1,5 +1,5 @@
 # Troubleshooting AO build & load
-The Dockerfile used here is just the stock version from the AO repo that builds wasm64, however I have also been testing the build/load process with 32bit. Adding the below to the Dockerfile and then building with buildarg like `docker build . -t p3rmaw3b/ao:v520 --build-arg MEMORY64` or not can specify which option to run.
+The Dockerfile used here is just the stock version from the AO repo that builds wasm64, however I have also been testing the build/load process with 32bit. Adding the below to the Dockerfile and then building with buildarg like `docker build . -t p3rmaw3b/ao:v520 --build-arg MEMORY64=1` or not can specify which option to run.
 ```
 ARG MEMORY64
 
